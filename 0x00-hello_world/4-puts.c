@@ -1,9 +1,14 @@
+/*
+ * File: 4-puts.c
+ * Author: Evan Richardson
+ */
 #include <stdio.h>
+/**
+ * main - prints Programming is like a building a multilingual puzzle
+ * Return: always 0
+ */
 int main(void)
 {
-	/* making my string to print */
-	char Mystr[] = '"Programming is like building a multilingual puzzle'
-;	/* using puts to print the str */
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
