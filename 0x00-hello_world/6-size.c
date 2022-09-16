@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints Programming is like a building a multilingual puzzle
+ * main - prints size of different characters
  * Return: always 0
  */
 int main(void)
