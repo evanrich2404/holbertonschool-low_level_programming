@@ -10,10 +10,14 @@ int main(void)
 	char ch;
 	/* printing base 16 */
 	for (n = '0'; n <= '9'; n++)
+	{
 		putchar(n);
+	}
 
-		for (ch = 'a'; ch <= 'f'; ch++)
-			putchar(ch);
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
