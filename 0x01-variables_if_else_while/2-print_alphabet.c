@@ -7,11 +7,13 @@
  */
 int main(void)
 {
-	int ch;
+	char ch = 'a';
+
 	/* print all lowercase letters */
-		for (ch = 'a'; ch <= 'z'; ch++)
 
+	while (ch <= 'z')
+	{
 			putchar(ch);
-
+	}
 			putchar('\n');
 }
