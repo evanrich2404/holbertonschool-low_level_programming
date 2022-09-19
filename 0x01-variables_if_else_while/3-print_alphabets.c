@@ -2,7 +2,7 @@
 /* printing the alphabet by Evan R. */
 
 /**
- * main - printing alphabet
+ * main - printing alphabet twice
  * Return: is 0
  */
 int main(void)

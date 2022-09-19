@@ -2,14 +2,14 @@
 /* printing the alphabet by Evan R. */
 
 /**
- * main - printing alphabet
+ * main - printing alphabet without e and q
  * Return: is 0
  */
 int main(void)
 {
 	char ch = 'a';
 
-	/* print all lowercase letters */
+	/* print almost all lowercase letters */
 
 	while (ch <= 'z')
 	{

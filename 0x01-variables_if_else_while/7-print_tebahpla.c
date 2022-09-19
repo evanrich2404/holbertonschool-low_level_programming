@@ -2,14 +2,14 @@
 /* printing the alphabet by Evan R. */
 
 /**
- * main - printing alphabet
+ * main - printing alphabet backwards
  * Return: is 0
  */
 int main(void)
 {
 	char ch = 'z';
 
-	/* print all lowercase letters */
+	/* print all lowercase letters backwards */
 
 	while (ch >= 'a')
 	{
