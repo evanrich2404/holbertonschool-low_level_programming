@@ -1,18 +1,19 @@
 #include <stdio.h>
-/* print base 10 by Evan R. */
+/* print base 16 by Evan R. */
 /**
- * main - printing base 10
+ * main - printing base 16
  * Return: is 0
  */
 int main(void)
 {
-	int n = 0;
-	/* printing base 10 */
-	while (n <= 9)
-	{
-		putchar(n + 48);
-		n++;
-	}
+	int n;
+	char ch;
+	/* printing base 16 */
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+
+		for (ch = 'a'; ch <= 'f'; ch++)
+			putchar(ch);
 	putchar('\n');
 	return (0);
 }
