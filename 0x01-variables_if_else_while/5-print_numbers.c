@@ -8,8 +8,8 @@ int main(void)
 {
 	int n = '0';
 	/* printing base 10 */
-		while (n <= 9)
-			putchar(n);
-			n++;
+	while (n <= 9)
+		putchar(n);
+		n++;
 	return (0);
 }
