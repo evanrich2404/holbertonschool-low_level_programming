@@ -11,7 +11,7 @@ int main(void)
 
 	/* print all lowercase letters */
 
-	while (ch <= 'a')
+	while (ch >= 'a')
 	{
 		putchar(ch);
 		ch--;
