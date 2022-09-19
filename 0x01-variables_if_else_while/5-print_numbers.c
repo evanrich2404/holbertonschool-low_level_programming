@@ -10,7 +10,7 @@ int main(void)
 	/* printing base 10 */
 	while (n <= 9)
 	{
-		putchar('' + n);
+		putchar(n + 48);
 		n++;
 	}
 	putchar('\n');
