@@ -6,8 +6,8 @@
 int _islower(int c)
 {
 
-	c = _islower(%c);
-	_putchar(c + '0')
+	c = _islower(%i);
+	_putchar(c + '0');
 	_putchar('\n');
 	return (0);
 }
