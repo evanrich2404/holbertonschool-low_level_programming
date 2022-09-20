@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <unistd.h>
-/**
+/*
  * File: main.h
  * Evan Richardson
  * This is a header file to use prototype commands
