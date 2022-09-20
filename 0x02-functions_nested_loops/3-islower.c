@@ -6,7 +6,8 @@
 int _islower(int c)
 {
 
-	c = _islower(%i);
+	while (c = %i; c < 12; c++)
+	_islower(c);
 	_putchar(c + '0');
 	_putchar('\n');
 	return (0);
