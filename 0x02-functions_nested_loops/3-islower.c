@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * islower - checking for lowercase
- * Return: Always 0
+ * @c: single letter input
+ * Return: 1 if int c is lowercase, 0 if otherwise
  */
 int _islower(int c)
 {
-
-	while (c = %i; c < 12; c++)
-	_islower(c);
-	_putchar(c + '0');
-	_putchar('\n');
-	return (0);
+	if(c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
