@@ -16,16 +16,16 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= t; i++)
 		{
-			c == 0 ? c = 1 : _putchar(", ");
-			_putchar(("%d"), i);
+			c == 0 ? c = 1 : _putchar(', ');
+			_putchar(('%d'), i);
 		}
 	}
 	else
 	{
 		for (i = n; i >= t; i--)
 		{
-			c == 0 ? c = 1 : printf(", ");
-			_putchar(("%d"), i);
+			c == 0 ? c = 1 : _putchar(', ');
+			_putchar(('%d'), i);
 		}
 	}
 	_putchar('\n');
