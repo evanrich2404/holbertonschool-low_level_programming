@@ -16,7 +16,7 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= t; i++)
 		{
-			c == 0 ? c = 1 : printf(", ");
+			c == 0 ? c = 1 : _putchar(", ");
 			_putchar(("%d"), i);
 		}
 	}
