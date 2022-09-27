@@ -10,17 +10,25 @@ void puts_half(char *str)
 	int i;
 	int length = _strlen(str);
 	int n = (length - 1) / 2;
-	char first[100], second[100];
 
-	if (n < length)
+	for (i = n; i < length; i++)
 	{
-		for (i = 0; i < n; i++)
-			first[i] = str[i];
-		first[n] = '\0';
-
-		for (i = n; i <= length; i++)
-			second[i - n] = str[i];
 		_putchar(str[i]);
 	}
 	_putchar('\n');
+}
+
+/**
+ * _strlen - function that returns the length of a string
+ * @s: input value
+ * Return: is length of string
+ */
+
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (s[length] != '\0')
+		length++;
+	return (length);
 }
