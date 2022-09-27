@@ -1,21 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - function that returns the length of a string
- * @str: input value
- * Return: is length of string
- */
-
-int _strlen(char *str)
-{
-	int length = 0;
-
-	while (str[length] != '\0')
-		length++;
-	return (length);
-}
-
-/**
  * puts2 - function that prints every other character in a string
  * Return: is 0
  * @str: input string/variable
@@ -31,4 +16,19 @@ void puts2(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
+}
+
+/**
+ * _strlen - function that returns the length of a string
+ * @str: input value
+ * Return: is length of string
+ */
+
+int _strlen(char *str)
+{
+	int length = 0;
+
+	while (str[length] != '\0')
+		length++;
+	return (length);
 }
