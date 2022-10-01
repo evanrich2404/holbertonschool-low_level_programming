@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
-#include "_strlen.c"
 
 /**
  * reverse_array - reverses the content of an array of integers
