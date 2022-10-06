@@ -5,34 +5,15 @@
  * @s: string input
  * Return: string
  */
-
 char *leet(char *s)
 {
-	int i;
+	int i, x;
+	char arr1[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char arr2[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	for (i = 0; s[i] >= 0; i++)
-	{
-		if (i == 'a' && i == 'A')
-		{
-			_putchar('4');
-		}
-		else if (i == 'e' && i == 'E')
-		{
-			_putchar('3');
-		}
-		else if (i == 'o' && i == 'O')
-		{
-			_putchar('0');
-		}
-		else if (i == 't' && i == 'T')
-		{
-			_putchar('7');
-		}
-		else if (i == 'l' && i == 'L')
-		{
-			_putchar('1');
-		}
-		else
-			return (s);
-	}
+	for (i = 0; s[i]; i++)
+		for (x = 0; x < 10; x++)
+			if (s[i] == arr1[x])
+				s[i] = arr2[x];
+	return (s);
 }
