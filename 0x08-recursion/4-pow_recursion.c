@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _pow_recursion - takes x to the power of y
- * Return: -1 if y < 0, otherwise return r
+ * Return: -1 y < 0, 1 y = 0, x y = 1, then return x^y
  * @x: input integer
  * @y: integer that changes x
  */
