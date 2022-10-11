@@ -22,5 +22,5 @@ char *_strdup(char *str)
 	{
 		out[i] = str[i];
 	}
-	return(out);
+	return (out);
 }
