@@ -4,7 +4,7 @@
  * Return: a pointer to the allocated memory
  * @b: input variable
  * Desc: if malloc fails, the function should cause normal process termination
- * 	 with a status value of 98
+ *	 with a status value of 98
  */
 void *malloc_checked(unsigned int b)
 {
@@ -13,6 +13,6 @@ void *malloc_checked(unsigned int b)
 	if (mem == NULL)
 		exit(3);
 	else
-		return(mem);
+		return (mem);
 	free(mem);
 }
