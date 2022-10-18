@@ -9,7 +9,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *s = malloc(sizeof(s1 + n + 1));
+	char *s = malloc(sizeof(s1) + n + 1);
 	unsigned int i, j;
 
 	if (!s)
