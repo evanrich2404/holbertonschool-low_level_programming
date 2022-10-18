@@ -15,6 +15,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i;
 
 	if (!s)
+		free(s);
 		return (NULL);
 	if (s1 == NULL)
 		s1 = '\0';
@@ -23,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; i < slen; i++)
 		s[i] = s1[i];
-	for (i = 0; i < n && s2[i] != '\0'; i++)
+	for (i = 0; i < n && s2[i]; i++)
 		s[slen + i] = s2[i];
 	s[slen + i] = '\0';
 
