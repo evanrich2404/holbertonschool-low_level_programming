@@ -33,6 +33,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		oldlistint_s = oldlistint_s->next;
 	}
 	newNode->next = oldlistint_s->next;
-	oldlistint_t->next = newNode;
+	oldlistint_s->next = newNode;
 	return (newNode);
 }
