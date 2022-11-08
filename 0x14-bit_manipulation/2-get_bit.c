@@ -4,7 +4,7 @@
  * get_bit - determines value of bit (0 or 1) at index
  * @n: uli to work on named n (base 10)
  * @index: base 2 dig index (starting 0 right to left)
- * Return: value of itsy bitsy at index or -1 if bad magic
+ * Return: value of bit at index or -1
  */
 int get_bit(unsigned long int n, unsigned int index)
 {

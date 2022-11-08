@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * clear_bit - sets itsy bitsy of n at index to 0
+ * clear_bit - sets bit of n at index to 0
  * @n: pointer to uli named n (base 10)
  * @index: base 2 dig index (starting 0 right to left)
- * Return: -1 if someone supplied silly index else 1
+ * Return: -1 if bad index else 1
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {

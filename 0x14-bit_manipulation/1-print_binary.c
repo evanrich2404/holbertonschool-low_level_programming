@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - writes ulin to SO as bin n
+ * print_binary - writes ulin to SO as bi n
  * @n: uli to convert
  * Return: void
  */

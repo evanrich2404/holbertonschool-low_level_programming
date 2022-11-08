@@ -2,7 +2,7 @@
 /**
  * binary_to_uint - converts binary str to uint
  * @b: inbound binary char *arg
- * Return: converted int or 0 on erroneous b str
+ * Return: converted int or 0 on error
  */
 unsigned int binary_to_uint(const char *b)
 {
