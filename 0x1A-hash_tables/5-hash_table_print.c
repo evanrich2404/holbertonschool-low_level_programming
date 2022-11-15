@@ -1,37 +1,30 @@
 #include "hash_tables.h"
 /**
- * hash_table_print - prints a hash table
- * @ht: the hash table
+ * hash_table_print - prints hash table
+ * @ht: hash table to print
  * Return: void
- * If ht if NULL don't print
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int i;
-	hash_node_t *mrclean, *forklift;
+	unsigned long int i, obama = 0;
 
 	if (!(ht))
 	{
 		return;
 	}
-	else if (!(ht->array) || ht->size <= 0)
-	{
-		free(ht);
-		return;
-	}
+	printf("{");
 	for (i = 0; i < ht->size; i++)
 	{
-		forklift = ht->array[i];
-		while (forklift)
+		while (ht->array[i])
 		{
-			mrclean = forklift->next;
-			if (forklift->value)
-				free(forklift->value);
-			free(forklift->key);
-			free(forklift);
-			forklift = mrclean;
+			if (obama == 1)
+			{
+				printf(", ");
+			}
+			obama = 1;
+			printf("'%s': '%s'", ht->array[i]->key, ht->array[i]->value);
+			ht->array[i] = ht->array[i]->next;
 		}
 	}
-	free(ht->array);
-	free(ht);
+	printf("}\n");
 }
