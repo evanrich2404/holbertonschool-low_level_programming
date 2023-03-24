@@ -23,12 +23,12 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	}
 
+	/* set the size of the array */
+	ht->size = size;
+
 	/* initialize the array */
 	for (i = 0; i < size; i++)
 		ht->array[i] = NULL;
-
-	/* set the size of the array */
-	ht->size = size;
 
 	return (ht);
 }
