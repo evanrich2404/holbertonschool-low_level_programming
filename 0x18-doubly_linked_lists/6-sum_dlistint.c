@@ -7,14 +7,14 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-	unsigned int sum = 0;
+	unsigned int sumDn = 0;
 
 	/*adds node data to sum, then targets next node*/
 	while (head)
 	{
-		sum += head->n;
+		sumDn += head->n;
 		head = head->next;
 	}
 	/* see the loop break when head->next is NULL */
-	return (sum);
+	return (sumDn);
 }
