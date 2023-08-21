@@ -7,3 +7,5 @@
 ## compile command for second task:
 
 ```gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary```
+
+### the rest of the files are text answers
